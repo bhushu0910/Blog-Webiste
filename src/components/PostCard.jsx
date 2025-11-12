@@ -18,7 +18,6 @@ const Postcard = ({ post }) => {
               ? post.content.substring(0, previewLength) + "..."
               : post.content}
           </Typography>
-
           <Button
             component={Link}
             to={`/post/${post.id}`}
